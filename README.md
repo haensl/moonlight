@@ -7,7 +7,7 @@ Arduino PWM dimmer simulating moonlight for my aquascape.
 
 ## Customization
 
-* Adjust [moonrise](src/moonlight.ino#10) and [moonset](src/moonlight.ino#17) according to your wishes. Times are given as `{ true, hours, minutes, seconds }` with 24 hours in mind. See [time.h](src/time.h) and [moon.h](src/moon.h) for further information.
+* Adjust [moonrise](src/moonlight.ino#L10) and [moonset](src/moonlight.ino#L17) according to your wishes. Times are given as `{ true, hours, minutes, seconds }` with 24 hours in mind. See [time.h](src/time.h) and [moon.h](src/moon.h) for further information.
 
 ## [Changelog](CHANGELOG.md)
 
