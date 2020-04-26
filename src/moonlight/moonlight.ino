@@ -50,7 +50,7 @@ void loop() {
   }
 
   if (date.available() > 0) {
-    now = (Time)parseTime(date);
+    now = parseTime(date);
   }
 
   if (now.initialized) {

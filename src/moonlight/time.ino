@@ -23,10 +23,6 @@ Time parseTime(Process date) {
       seconds
     };
 
-    Console.print("date hours: ");
-    Console.print(timeToHours(d));
-    Console.print("\n");
-
     return d;
   }
 }
